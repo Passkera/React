@@ -2,10 +2,10 @@ import React from 'react';
 
 function App() {
 
-	const isAuth = true
+	const isAuth = false
 	
 	return <div>
-		{ isAuth && <p>You're authorized</p>}
+		{ !isAuth && <p>You're not authorized</p>}
 	</div>
 		
 }
