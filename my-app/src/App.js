@@ -2,14 +2,12 @@ import React from 'react';
 
 function App() {
 
-	let isAdult = false
+	const isAdmin = true
 	let text
 
-	if (isAdult) {
-		text = <p>A user is a adult</p>
-	} else {
-		text = <p>A user isn't a adult</p>	
-	}
+	if (isAdmin) {
+		text = <p>A user is a Admin</p>
+	} 
 	
 	return <div>
 		{text}
