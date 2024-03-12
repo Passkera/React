@@ -1,20 +1,7 @@
 import React from 'react';
 
 function App() {
-  return (
-    <>
-      <ul>
-        <li>text1</li>
-        <li>text2</li>
-        <li>text3</li>
-      </ul>
-      <ul>
-        <li>text4</li>
-        <li>text5</li>
-        <li>text6</li>
-      </ul>
-    </>
-  )
+  return <input />;
 
 }
 
