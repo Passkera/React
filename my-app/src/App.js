@@ -2,15 +2,10 @@ import React from 'react';
 
 function App() {
 
-	const isAdmin = true
-	let text
-
-	if (isAdmin) {
-		text = <p>A user is a Admin</p>
-	} 
+	const age = 19
 	
 	return <div>
-		{text}
+		{(age < 19)? <p>Younger than 19</p> : <p>Older than 19</p>}
 	</div>
 		
 }
