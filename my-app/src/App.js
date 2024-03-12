@@ -2,10 +2,10 @@ import React from 'react';
 
 function App() {
 
-	const age = 19
+	const isAuth = true
 	
 	return <div>
-		{(age < 19)? <p>Younger than 19</p> : <p>Older than 19</p>}
+		{ isAuth && <p>You're authorized</p>}
 	</div>
 		
 }
