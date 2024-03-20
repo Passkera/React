@@ -14,7 +14,7 @@ function App() {
 	}
 	
 	return <div>
-		<p>{GetDigitSum(43523)}</p>
+		<p>{GetDigitSum(12345)}</p>
 	</div>
 		
 }
