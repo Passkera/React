@@ -2,10 +2,19 @@ import React from 'react';
 
 function App() {
 
-	const isAuth = false
+	function GetDigitSum(val){
+		let result = 0;
+
+		for(let i = 0; i < String(val).length; i++){
+			console.log(String(val)[i])
+			result += Number(String(val)[i])
+		}
+			
+		return result;
+	}
 	
 	return <div>
-		{ !isAuth && <p>You're not authorized</p>}
+		<p>{GetDigitSum(43523)}</p>
 	</div>
 		
 }
